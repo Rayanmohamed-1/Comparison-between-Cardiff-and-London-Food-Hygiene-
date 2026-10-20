@@ -1,0 +1,16 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Mac files
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Downloaded data
+data/raw/
+
+# Generated database
+data/processed/*.db
