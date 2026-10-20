@@ -1,0 +1,24 @@
+city,business_type,rated_establishments,average_rating
+Cardiff,Distributors/Transporters,24,3.83
+Cardiff,Hospitals/Childcare/Caring Premises,305,4.75
+London,Hospitals/Childcare/Caring Premises,27,4.85
+Cardiff,Hotel/bed & breakfast/guest house,38,4.61
+London,Hotel/bed & breakfast/guest house,257,4.65
+Cardiff,Manufacturers/packers,50,4.52
+London,Manufacturers/packers,23,4.48
+Cardiff,Mobile caterer,131,4.82
+London,Mobile caterer,37,4.84
+Cardiff,Other catering premises,484,4.64
+London,Other catering premises,226,4.83
+Cardiff,Pub/bar/nightclub,175,4.62
+London,Pub/bar/nightclub,150,4.61
+Cardiff,Restaurant/Cafe/Canteen,805,4.45
+London,Restaurant/Cafe/Canteen,3420,4.45
+Cardiff,Retailers - other,484,4.41
+London,Retailers - other,682,4.33
+Cardiff,Retailers - supermarkets/hypermarkets,106,4.73
+London,Retailers - supermarkets/hypermarkets,85,4.84
+Cardiff,School/college/university,162,4.84
+London,School/college/university,131,4.88
+Cardiff,Takeaway/sandwich shop,246,4.17
+London,Takeaway/sandwich shop,268,4.4

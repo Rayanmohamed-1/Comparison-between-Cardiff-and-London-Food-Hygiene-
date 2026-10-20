@@ -1,0 +1,9 @@
+city,rating_status,establishments,pct_of_city
+Cardiff,Rated,3017,86.05
+Cardiff,Awaiting inspection,434,12.38
+Cardiff,Exempt,53,1.51
+Cardiff,Awaiting publication,2,0.06
+London,Rated,5316,92.26
+London,Exempt,293,5.09
+London,Awaiting inspection,150,2.6
+London,Awaiting publication,3,0.05

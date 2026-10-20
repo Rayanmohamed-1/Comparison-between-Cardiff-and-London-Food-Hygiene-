@@ -1,9 +1,12 @@
+
+-- name: total_establishments
 SELECT
     city,
     COUNT(*) AS total_establishments
 FROM establishments
 GROUP BY city;
 
+-- name: rating_status_by_city
 SELECT
     city,
     rating_status,
@@ -14,6 +17,7 @@ FROM establishments
 GROUP BY city, rating_status
 ORDER BY city, establishments DESC;
 
+-- name: rating_distribution
 SELECT
     city,
     rating,
@@ -25,6 +29,7 @@ WHERE rating IS NOT NULL
 GROUP BY city, rating
 ORDER BY city, rating DESC;
 
+-- name: average_rating_and_five_star
 SELECT
     city,
     COUNT(rating) AS rated_establishments,
@@ -37,6 +42,7 @@ SELECT
 FROM establishments
 GROUP BY city;
 
+-- name: ratings_by_business_type
 SELECT
     city,
     business_type,
@@ -48,6 +54,7 @@ GROUP BY city, business_type
 HAVING COUNT(rating) >= 10
 ORDER BY business_type, city;
 
+-- name: component_scores_by_rating
 SELECT
     rating,
     COUNT(*) AS establishments,
@@ -59,6 +66,7 @@ WHERE rating IS NOT NULL
 GROUP BY rating
 ORDER BY rating DESC;
 
+-- name: component_scores_by_city
 SELECT
     city,
     ROUND(AVG(hygiene_score), 2) AS avg_hygiene_score,
@@ -68,6 +76,7 @@ FROM establishments
 WHERE rating IS NOT NULL
 GROUP BY city;
 
+-- name: inspection_recency
 SELECT
     city,
     rating,

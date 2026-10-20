@@ -1,0 +1,13 @@
+city,rating,establishments,avg_years_since_inspection
+Cardiff,5.0,2132,2.1
+Cardiff,4.0,540,2.2
+Cardiff,3.0,241,0.8
+Cardiff,2.0,51,0.8
+Cardiff,1.0,45,0.5
+Cardiff,0.0,8,0.4
+London,5.0,3750,1.7
+London,4.0,850,1.5
+London,3.0,375,1.0
+London,2.0,230,1.0
+London,1.0,94,0.7
+London,0.0,17,0.7
